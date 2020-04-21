@@ -26,13 +26,22 @@
 1. Complete sections 1-16 of this [html assignment](https://www.codecademy.com/courses/learn-html/lessons/intro-to-html/exercises/structure-html).
 2. Screenshot your progress and upload it to TiTuS.
 
-## Homework
+## Hand in Assignments
+>these are expected to be handed in through TiTuS.
 
 ### Git Branching 
 
 1. Go to https://try.github.io/ for resources and training. 
 2. Complete the first four excercises in https://learngitbranching.js.org/.
-3. Screenshot your progress and upload it to TiTuS. Complete the first four sections. 
+3. Screenshot your progress and upload it to TiTuS. 
+
+## Notes and Links
+
+- Shoutouts to our TA Irish Holland for walking us through some frontend fundamentals (HTML and CSS). 
+
+- [W3Schools](https://www.w3schools.com/), a greate resource for quick frontend references. 
+
+- []()
 
 ## Quote of the Day 
 
