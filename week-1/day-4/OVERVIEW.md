@@ -3,6 +3,8 @@
 ## Agenda
 
 - Welcome to the world of Java! 
+- Make our first Java application, a simple `hello world` app that prints your name! 
+- Explore data types and variables. 
 
 
 ## Outline
@@ -35,6 +37,15 @@
 ## Quote of the Day 
 
 ```
-TBD
+ ____________________________________
+/ A chronic disposition to inquiry   \
+| deprives domestic felines of vital |
+\ qualities.                         /
+ ------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
 
 ```
