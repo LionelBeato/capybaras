@@ -15,7 +15,7 @@
 ### HTML/CSS
 
 1. Work on your HTML/CSS fundamentals. 
-2. Practice some CSS! See if you can make 
+2. Practice some CSS! See if you can make a few classes in a seperate stylesheet. Be sure to link your `.css` file to your `.html` document.
 
 
 ## Hand in Assignments
