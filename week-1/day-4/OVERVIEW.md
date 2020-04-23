@@ -25,8 +25,18 @@
 
 ## Lab
 
+### Review Questions 
+
+- Answer the questions at the end of the slides to the best of your ability.
+- You don't have to hand this in, this is more for your sake! 
+
 
 ## Hand in Assignments
+
+### HackerRank Challenge
+
+1. Go to https://www.hackerrank.com/domains/java and complete the first four challenges. 
+2. Take a screenshot of your progress and upload it to TiTuS. 
 
 
 ## Notes and Links

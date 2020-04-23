@@ -28,7 +28,8 @@
 ### Signup for GitHub
 
 1. Go to https://github.com/
-2. Click on Signup or enter your information and click on signup 
+2. Click on Signup or enter your information and click on signup.
+3. Go ahead and create an account! 
 
 ### Install Git for Windows
 
