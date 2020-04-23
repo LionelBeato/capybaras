@@ -41,6 +41,9 @@
 
 ## Notes and Links
 
+- [HackerRank](https://www.hackerrank.com/domains/java) is a great site that will teach and test Java in addition to other programming languages.  
+- [Udemy](https://www.udemy.com/course/java-tutorial/) is another great resource you can utilize! 
+
 
 
 
