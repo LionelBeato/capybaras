@@ -47,6 +47,10 @@
 
 - [Java Api Docs for Java 11](https://docs.oracle.com/en/java/javase/11/docs/api/index.html).
 
+## Errata
+
+- I mentioned the difference between the datatypes `double` and `float` and may have confused the the byte values. `double` occupies 8 bytes and `float` occupies only 4 bytes. 
+
 
 ## Quote of the Day 
 

@@ -72,13 +72,17 @@ Repository for all of the classwork content related to Tech Talent South!
 
 - *primitive* : a data type that is typically a basic building block of a language and denotes a value.
 
-- *push*, *pushing* : to sync code with a remote repository.
+- *push*, *pushing* : in reference to git, to sync code with a remote repository.
+
+- *pull*, *pulling* : in reference to git, to sync code with a local repository. 
 
 ## R
 
 - *refactor* : to change code for the better. 
 
 - *reference* : a value that represents an indirectly accessed piece of data, or 'datum'. 
+
+- *remote* : in reference to git, a repository that is not located locally. 
 
 - *repository* : in reference to git, a collection of files representing a project, typically composed of source code.
 
