@@ -39,10 +39,9 @@
     - Java Strings Introduction
 2. Take a screenshot of your progress and upload it to TiTuS.
 
-
 ## Notes and Links
 
-
+- At a later date, we should make sure our gradle setups are working. It's necessary for our future Spring applications! 
 
 
 ## Quote of the Day 
