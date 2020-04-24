@@ -26,11 +26,13 @@ Repository for all of the classwork content related to Tech Talent South!
 
 - *compiling* : to convert source code into machine-code or byte code. 
 
+- *compiler* : a program that converts--or *compiles*--code. 
+
 ## D
 
 - *design pattern* : a reusable solution or methodology that addresses a specific problem. 
 
-- *dark pattern* : a design pattern that is typically user-agressive or exploitative. 
+- *dark pattern* : a design pattern that is typically user-aggressive or exploitative. 
 
 ## E
 

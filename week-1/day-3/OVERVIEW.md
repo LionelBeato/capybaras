@@ -32,6 +32,7 @@
 
 
 ## Hand in Assignments
+>these are expected to be handed in through TiTuS.
 
 ### Agile Jira Lab
 

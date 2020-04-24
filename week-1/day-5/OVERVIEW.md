@@ -23,8 +23,14 @@
 
 ## Lab
 
+### Review and Catchup 
+
+- Go ahead and take the time to review and catchup on any assignments. 
+- I'll review all submissions by the end of the week on Sundays. Expect grades by Monday if your submission hasn't been already reviewed. 
+
 
 ## Hand in Assignments
+>these are expected to be handed in through TiTuS.
 
 ### HackerRank Challenge
 
