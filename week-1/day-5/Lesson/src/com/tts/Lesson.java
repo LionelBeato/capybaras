@@ -6,7 +6,7 @@ public class Lesson {
 
     public static void main(String[] args) throws IOException {
 
-//        if statement
+//        if statements
 
         int x = 1;
 
@@ -19,22 +19,34 @@ public class Lesson {
 
         if (x > 3) {
             System.out.printf("%d is a big number%n", x);
+
+
 //            this right here is a nested if statement
 //            you can have as many nested if statements as you want
 //            just keep in mind your code readability and efficiency
             if (x > 9){
                 System.out.printf("%d is a really big number!%n", x);
             }
+//            below is an else block
+//            note that you can also use else if with another condition
+//            this will allow you to chain multiple conditionals
         } else {
             System.out.println("This number is too small:"+x);
         }
 
+//        switch statements
+
         char grade = 'a';
 
+//        this switch will check evaluate the value of "grade"
+//        if grate matches a specific case, it will then commit the following statement
+//        multiple cases can be stacked on top of one another
+//        thus resolving to the same statement
         switch(grade){
             case 'a':
             case 'A':
                 System.out.println("You got an A!");
+//                breaks are used to end our switch statement
                 break;
             case 'B':
                 System.out.println("You got a B!");
@@ -45,6 +57,7 @@ public class Lesson {
                 break;
         }
 
+//        for loop
 
 //        this here is a traditional for loop
 //        the middle statement is called our end check
@@ -62,8 +75,13 @@ public class Lesson {
             break;
         }
 
+//        enhanced for
+
         int[] simpleArray = {1,2,3,4,5};
 
+//        this is a more traditional way to iterate over an array
+//        note the ".length" value on simpleArray
+//        that is a value within simpleArray that represents the length of our array
         for (int i = 0; i < simpleArray.length;i++){
             System.out.println("Value of item in array: "+ simpleArray[i]);
         }
@@ -73,6 +91,7 @@ public class Lesson {
         for (int item: simpleArray){
             System.out.println("Enhanced for loop item: "+item);
         }
+
 
         int y = 1;
 

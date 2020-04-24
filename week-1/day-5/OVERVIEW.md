@@ -43,6 +43,10 @@
 
 - At a later date, we should make sure our gradle setups are working. It's necessary for our future Spring applications! 
 
+- [Nuts and Bolts of datatypes in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html).
+
+- [Java Api Docs for Java 11](https://docs.oracle.com/en/java/javase/11/docs/api/index.html).
+
 
 ## Quote of the Day 
 
