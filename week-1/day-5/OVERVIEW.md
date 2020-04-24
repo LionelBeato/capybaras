@@ -2,7 +2,8 @@
 
 ## Agenda
 
-- TBD
+- Explore the Java control flow statements: decision, looping, and branching. 
+- Keep working on our HackerRank challenges. 
 
 ## Outline
 
@@ -25,6 +26,13 @@
 
 ## Hand in Assignments
 
+### HackerRank Challenge
+
+1. Go to https://www.hackerrank.com/domains/java and complete the following challenges: 
+    - Java If-Else
+    - Java Strings Introduction
+2. Take a screenshot of your progress and upload it to TiTuS.
+
 
 ## Notes and Links
 
@@ -34,9 +42,11 @@
 ## Quote of the Day 
 
 ```
- _____________________
-< nothing to see here >
- ---------------------
+ ________________________________________
+/ Of course you can't flap your arms and \
+| fly to the moon. After a while you'd   |
+\ run out of air to push against.        /
+ ----------------------------------------
         \   ^__^
          \  (oo)\_______
             (__)\       )\/\
