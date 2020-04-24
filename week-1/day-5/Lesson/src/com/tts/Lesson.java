@@ -70,6 +70,8 @@ public class Lesson {
             System.out.println("Count: "+ i);
         }
 
+//        infinite loop implementation
+//        this loop will stop after one iteration, can you spot why?
         for ( ; ; ){
             System.out.println("Help, I'm stuck in an infinite loop.");
             break;
@@ -92,18 +94,27 @@ public class Lesson {
             System.out.println("Enhanced for loop item: "+item);
         }
 
+//        while loops
+//        while loops will always resolve their code blocks
+//        under a true condition
+//        thus, you can use while loops to loop infinitely by default
 
         int y = 1;
-
+//        whatever the value of y, this while loop will not go on forever
+//        can you see why?
         while(y == 2){
             System.out.println(y);
             break;
         }
-
+//        do whiles are the same as while loops except their code blocks
+//        will always resolve at least once
+//        even if the condition is not met!
         do {
             System.out.println("y is great!");
         } while ( y == 2);
 
+
+//        simple interactive program utilizing do-while
         char ch = 'c';
 
         do {
