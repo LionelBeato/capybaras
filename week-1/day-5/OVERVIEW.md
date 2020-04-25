@@ -49,7 +49,7 @@
 
 ## Errata
 
-- I mentioned the difference between the datatypes `double` and `float` and may have confused the the byte values. `double` occupies 8 bytes and `float` occupies only 4 bytes. 
+- I mentioned the difference between the datatypes `double` and `float` and may have confused the byte values. `double` occupies 8 bytes and `float` occupies only 4 bytes. 
 
 
 ## Quote of the Day 
