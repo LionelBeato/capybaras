@@ -1,4 +1,4 @@
-# April 29, 2020 - Day 8
+# May 5, 2020 - Day 12
 
 ## Agenda 
 
@@ -36,12 +36,8 @@
 
 ```
  _________________________________________
-/ No hardware designer should be allowed  \
-| to produce any piece of hardware until  |
-| three software guys have signed off for |
-| it.                                     |
-|                                         |
-\ -- Andy Tanenbaum                       /
+/ An effective way to deal with predators \
+\ is to taste terrible.                   /
  -----------------------------------------
         \   ^__^
          \  (oo)\_______

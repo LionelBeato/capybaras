@@ -1,4 +1,4 @@
-# April 29, 2020 - Day 8
+# May 11, 2020 - Day 16
 
 ## Agenda 
 
@@ -36,12 +36,8 @@
 
 ```
  _________________________________________
-/ No hardware designer should be allowed  \
-| to produce any piece of hardware until  |
-| three software guys have signed off for |
-| it.                                     |
-|                                         |
-\ -- Andy Tanenbaum                       /
+/ We are each only one drop in a great    \
+\ ocean -- but some of the drops sparkle! /
  -----------------------------------------
         \   ^__^
          \  (oo)\_______

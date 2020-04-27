@@ -1,4 +1,4 @@
-# April 29, 2020 - Day 8
+# May 12, 2020 - Day 17
 
 ## Agenda 
 
@@ -36,12 +36,7 @@
 
 ```
  _________________________________________
-/ No hardware designer should be allowed  \
-| to produce any piece of hardware until  |
-| three software guys have signed off for |
-| it.                                     |
-|                                         |
-\ -- Andy Tanenbaum                       /
+< Save the whales. Collect the whole set. >
  -----------------------------------------
         \   ^__^
          \  (oo)\_______

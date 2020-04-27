@@ -1,4 +1,4 @@
-# April 29, 2020 - Day 8
+# May 6, 2020 - Day 13
 
 ## Agenda 
 
@@ -35,14 +35,10 @@
 ## Quote of the Day 
 
 ```
- _________________________________________
-/ No hardware designer should be allowed  \
-| to produce any piece of hardware until  |
-| three software guys have signed off for |
-| it.                                     |
-|                                         |
-\ -- Andy Tanenbaum                       /
- -----------------------------------------
+ _______________________________________
+/ A lack of leadership is no substitute \
+\ for inaction.                         /
+ ---------------------------------------
         \   ^__^
          \  (oo)\_______
             (__)\       )\/\

@@ -1,4 +1,4 @@
-# April 29, 2020 - Day 8
+# May 4, 2020 - Day 11
 
 ## Agenda 
 
@@ -35,14 +35,11 @@
 ## Quote of the Day 
 
 ```
- _________________________________________
-/ No hardware designer should be allowed  \
-| to produce any piece of hardware until  |
-| three software guys have signed off for |
-| it.                                     |
-|                                         |
-\ -- Andy Tanenbaum                       /
- -----------------------------------------
+ __________________
+/ innovate, v.:    \
+|                  |
+\ To annoy people. /
+ ------------------
         \   ^__^
          \  (oo)\_______
             (__)\       )\/\

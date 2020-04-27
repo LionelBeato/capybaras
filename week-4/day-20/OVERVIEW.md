@@ -1,4 +1,4 @@
-# April 29, 2020 - Day 8
+# May 15, 2020 - Day 20
 
 ## Agenda 
 
@@ -36,12 +36,10 @@
 
 ```
  _________________________________________
-/ No hardware designer should be allowed  \
-| to produce any piece of hardware until  |
-| three software guys have signed off for |
-| it.                                     |
+/ Harrison's Postulate:                   \
 |                                         |
-\ -- Andy Tanenbaum                       /
+| For every action, there is an equal and |
+\ opposite criticism.                     /
  -----------------------------------------
         \   ^__^
          \  (oo)\_______

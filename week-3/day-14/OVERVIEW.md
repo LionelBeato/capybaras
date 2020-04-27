@@ -1,4 +1,4 @@
-# April 29, 2020 - Day 8
+# May 7, 2020 - Day 14
 
 ## Agenda 
 
@@ -36,12 +36,13 @@
 
 ```
  _________________________________________
-/ No hardware designer should be allowed  \
-| to produce any piece of hardware until  |
-| three software guys have signed off for |
-| it.                                     |
+/ Woolsey-Swanson Rule:                   \
 |                                         |
-\ -- Andy Tanenbaum                       /
+| People would rather live with a problem |
+| they cannot                             |
+|                                         |
+| solve rather than accept a solution     |
+\ they cannot understand.                 /
  -----------------------------------------
         \   ^__^
          \  (oo)\_______

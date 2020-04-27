@@ -1,4 +1,4 @@
-# April 29, 2020 - Day 8
+# May 13, 2020 - Day 18
 
 ## Agenda 
 
@@ -35,14 +35,11 @@
 ## Quote of the Day 
 
 ```
- _________________________________________
-/ No hardware designer should be allowed  \
-| to produce any piece of hardware until  |
-| three software guys have signed off for |
-| it.                                     |
-|                                         |
-\ -- Andy Tanenbaum                       /
- -----------------------------------------
+ ________________________________________
+/ My interest is in the future because I \
+| am going to spend the rest of my life  |
+\ there.                                 /
+ ----------------------------------------
         \   ^__^
          \  (oo)\_______
             (__)\       )\/\
