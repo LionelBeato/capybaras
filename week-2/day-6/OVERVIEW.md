@@ -55,6 +55,11 @@
 
 - Today I mentioned the concept of *imperative programming*. Strictly speaking, imperative programming refers to a paradigm of coding that dictates a programs *state* using *statements*. You can think of it as giving your program commands. Compare and contrast with *declarative programming* which does not care about the *how* but the *what* of your code. Thus you would declare what you want to use in your program as opposed to describing how you would use them. 
 
+- When comparing strings, you would want to use a helper method such as `.equals()` or `.compareTo()`. This is due to the way Java creates its objects. Thank you Cristian Ponce for the tip!
+
+## Errata
+
+- Dummy moment of the day for me: forgetting the nature of string equality in Java. Be aware that you cannot simply check equality with a `==` operator. We will be covering why this is the case at a later date. 
 
 
 ## Quote of the Day 
