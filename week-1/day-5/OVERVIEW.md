@@ -1,6 +1,6 @@
 # April 23, 2020 - Day 5
 
-## Agenda
+## Agenda 
 
 - Explore the Java control flow statements: decision, looping, and branching. 
 - Keep working on our HackerRank challenges. 
