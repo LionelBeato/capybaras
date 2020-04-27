@@ -35,7 +35,7 @@ public class Main {
             Lottery.runLottery();
 
         } else {
-            System.out.println("Understood. Complete the survey at a later date.");
+            System.out.println("Understood. Please complete the survey at a later date.");
         }
 
     }
