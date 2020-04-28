@@ -21,10 +21,28 @@
 
 ## Lab
 
+### Complete the slides example
+
+- At the end of today's slides, there are two exercises. Complete both of them.
+- I'll complete at least the first one in class.  
+
+### Prime Numbers
+
+1. Write a Java Program that prints out all the prime numbers between 1 and 100. 
+2. Be sure to have a method called `isPrime()` to tell if a number is prime or not. 
 
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
+
+### HackerRank Challenge
+
+1. Go to https://www.hackerrank.com/domains/java and complete the following challenges: 
+    - Java 1D Array 
+    - Java Anagrams
+    - Java 2D Array
+    - Java Map
+2. Take a screenshot of your progress and upload it to TiTuS.
 
 
 
