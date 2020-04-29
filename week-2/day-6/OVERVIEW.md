@@ -51,7 +51,7 @@
 ## Notes and Links
 
 
-- If you need a third-party tool to create a link, [7-Zip comes highly recommended](https://www.7-zip.org/).
+- If you need a third-party tool to create a zip, [7-Zip comes highly recommended](https://www.7-zip.org/).
 
 - Today I mentioned the concept of *imperative programming*. Strictly speaking, imperative programming refers to a paradigm of coding that dictates a programs *state* using *statements*. You can think of it as giving your program commands. Compare and contrast with *declarative programming* which does not care about the *how* but the *what* of your code. Thus you would declare what you want to use in your program as opposed to describing how you would use them. 
 
