@@ -48,6 +48,8 @@
 
 ## Notes and Links
 
+- [A quick overview of what 2D Arrays](https://processing.org/tutorials/2darray/). 
+
 
 
 ## Quote of the Day 
