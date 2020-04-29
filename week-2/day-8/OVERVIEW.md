@@ -21,11 +21,33 @@
 
 ## Lab
 
+### Data Structures Quiz
+
+- Our quiz will formally be taken at 3:00p. 
+- We'll review it at 3:30p.
+
+### Data Structures Lab
+
+- Follow the steps outlined on TiTuS. 
+- I'll more than likely walk you through this one, so don't worry if you don't understand something! 
+
 
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
+### Data Structures Exercise
+
+1. Follow the steps outlined on TiTuS. 
+2. Upload your project as a zip. 
+
+
+### HackerRank Challenge 
+
+1. Go to https://www.hackerrank.com/domains/java and complete the following challenges: 
+    - Java String Reverse
+    - Java Subarray 
+2. Take a screenshot of your progress and upload it to TiTuS.
 
 
 ## Notes and Links
