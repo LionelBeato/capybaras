@@ -2,6 +2,9 @@
 
 ## Agenda 
 
+- Explore different Java data structures.
+- Explore the use cases for Arrays and ArrayLists. 
+
 
 ## Outline
 

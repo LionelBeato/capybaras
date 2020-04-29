@@ -2,6 +2,7 @@
 
 ## Agenda 
 
+- Implement your own LinkedList! 
 
 ## Outline
 
@@ -22,10 +23,27 @@
 ## Lab
 
 
+### Handmade LinkedList implementation
+
+- Following the steps on TiTuS, implement your own LinkedList data structure!
+- What are some of the difficulties that you encountered? 
+- I'll attempt the lab in class myself.
+
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
+### Sorting Assignment
+
+1. Follow the steps outlined on TiTuS, picking one of the two options.
+2. Upload your assignment as a zip. 
+
+
+### HackerRank Challenge 
+
+1. Go to https://www.hackerrank.com/domains/java and complete the following challenges: 
+    - Java Arraylist
+2. Take a screenshot of your progress and upload it to TiTuS.
 
 
 ## Notes and Links

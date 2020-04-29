@@ -2,6 +2,8 @@
 
 ## Agenda 
 
+- Explore Java methods and what makes them unique. 
+
 
 ## Outline
 
@@ -21,10 +23,34 @@
 
 ## Lab
 
+### Java Methods Lab
+
+- Follow the instructions on TiTuS.
+- I'll do this one in class.
+
+### Review and Catchup 
+
+- Go ahead and take the time to review and catchup on any assignments. 
+- I'll review all submissions by the end of the week on Sundays. Expect grades by Monday if your submission hasn't been already reviewed. 
 
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
+
+### CodingBat Challenge
+
+1. Go to and complete the following challenges:
+    - sleepIn
+    - monkeyTrouble
+    - sumDouble 
+    - diff21 
+    - parrotTrouble 
+    - makes10 
+    - nearHundred
+    - posNeg
+    - notString 
+
+2. Take a screenshot of your progress and upload it to TiTuS. 
 
 
 

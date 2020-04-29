@@ -2,6 +2,9 @@
 
 ## Agenda 
 
+- Explore more advanced data structures such as LinkedList and Queues. 
+- Discuss the use cases and implementations. 
+
 
 ## Outline
 

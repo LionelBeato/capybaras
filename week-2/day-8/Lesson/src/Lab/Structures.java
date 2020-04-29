@@ -51,7 +51,7 @@ public class Structures {
 //        Vector is an old class that can be utilized in the Java API
 //        It behaves similarly to an ArrayList
 //        in that the size of the vector can be dynamic as opposed to fixed
-        
+
 
         Vector<String> stringVector = new Vector<>();
 
