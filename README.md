@@ -36,7 +36,7 @@ Repository for all of the classwork content related to Tech Talent South!
 
 ## E
 
-- *encapsulation* : the concept that code can be wrapped or contained by other code for safety and security purposes. 
+- *encapsulation* : the concept that code can be wrapped or contained by other code for safety and security purposes. Variables and methods that act on those variables should then be bundled together. 
 
 ## F
 
