@@ -49,8 +49,9 @@
 
 ## Notes and Links
 
-- Sorting fundamentals with visualizations via TopTal
+- [Sorting fundamentals with visualizations via TopTal](https://www.toptal.com/developers/sorting-algorithms).
 - Sorting is something we failed to cover in class but [you can review some basic sort implementations on this website](https://www.baeldung.com/java-sorting)
+- [The LinkedList implementation I referenced. Feel free to peruse it](https://letstalkalgorithms.com/linkedlist-implementation-java/)
 
 
 
