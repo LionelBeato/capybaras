@@ -2,6 +2,7 @@
 
 ## Agenda 
 
+- Review the data structures we've learned about. 
 - Implement your own LinkedList! 
 
 ## Outline

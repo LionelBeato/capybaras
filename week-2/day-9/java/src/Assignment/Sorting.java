@@ -26,7 +26,7 @@ public class Sorting {
         for (int i = 0; i < myInts.size(); i++ ){
 //            with every search near the start, I want to compare the element to one
 //            near the end, these loops will technically go through the entire list
-//            you can optimize this algorithm by 
+//            you can optimize this algorithm by
             for (int j = 99; j > -1; j--){
                 System.out.printf("comparing %d and %d!%n", myInts.get(i), myInts.get(j));
                 if (myInts.get(i) > myInts.get(j)) {
@@ -36,8 +36,9 @@ public class Sorting {
                     myInts.set(j, tempValue);
                 }
             }
-
         }
+
+
         myInts.add(0, myInts.get(99));
         myInts.remove(myInts.remove(100));
 
@@ -59,7 +60,7 @@ public class Sorting {
 
         System.out.println(myIntegers);
 
-//        myIntegers.sort(null);
+       myIntegers.sort(null);
 
         sort(myIntegers);
     }
