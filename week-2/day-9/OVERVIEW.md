@@ -35,7 +35,7 @@
 
 ### Sorting Assignment
 
-1. Follow the steps outlined on TiTuS, picking one of the two options.
+1. Follow the steps outlined on TiTuS, picking one of the two options. (Don't feel the need to create a sorting algorithm from scratch!)
 2. Upload your assignment as a zip. 
 
 
@@ -47,6 +47,9 @@
 
 
 ## Notes and Links
+
+- Sorting fundamentals with visualizations via TopTal
+- Sorting is something we failed to cover in class but [you can review some basic sort implementations on this website](https://www.baeldung.com/java-sorting)
 
 
 
