@@ -1,11 +1,11 @@
 # April 30, 2020 - Day 9
 
-## Agenda 
+## Agenda 📕
 
 - Review the data structures we've learned about. 
 - Implement your own LinkedList! 
 
-## Outline
+## Outline 
 
 | Time   | Objective                        |
 | -------|:---------------------------------|
