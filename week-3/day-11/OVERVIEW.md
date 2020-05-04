@@ -2,6 +2,9 @@
 
 ## Agenda 
 
+- Finally, let's get to Object Oriented Programming. 
+- Let's explore the four pillars of OOP. 
+
 
 ## Outline
 
@@ -21,10 +24,22 @@
 
 ## Lab
 
+### OOP Practice
+
+1. Create five different classes that can later be instatiated as objects.
+2. Have at least two of these objects act as superclasses and extend them. 
+3. Create an interface and implement it in one of your classes. 
+
 
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
+
+### Animals Inheritance!
+
+1. Create at least five different animal classes with a few class variables and methods.
+2. For two of your animals, create super classes that your animals will extend. Think of the "is-a" relationship model (for example, a turtle *is-a* reptile).
+3. Push your code to GitHub! 
 
 
 
