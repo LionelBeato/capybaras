@@ -1,7 +1,7 @@
 
 # Class Capybaras
 
-Repository for all of the classwork content related to Tech Talent South!
+Repository for all of the classwork content related to Tech Talent South!!
 
 
 # Index 
