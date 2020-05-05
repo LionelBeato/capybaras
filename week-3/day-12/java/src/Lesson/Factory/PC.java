@@ -1,4 +1,4 @@
-package Factory;
+package Lesson.Factory;
 
 public class PC extends Computer {
 

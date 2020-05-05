@@ -1,3 +1,5 @@
+package Lesson;
+
 public class Generic<T> {
 
     public T giveBackGeneric(T myGeneric){

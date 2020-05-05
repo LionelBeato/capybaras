@@ -1,3 +1,5 @@
+package Lesson;
+
 public class Single {
 
     private static Single SINGLE_INSTANCE = new Single();

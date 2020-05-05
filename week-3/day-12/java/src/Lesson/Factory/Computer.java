@@ -1,4 +1,4 @@
-package Factory;
+package Lesson.Factory;
 
 public abstract class Computer {
 
