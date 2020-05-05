@@ -41,8 +41,19 @@
 2. For two of your animals, create super classes that your animals will extend. Think of the "is-a" relationship model (for example, a turtle *is-a* reptile).
 3. Push your code to GitHub!
 
+### HackerRank Challenge
+
+
+1. Go to https://www.hackerrank.com/domains/java and complete the following challenges: 
+  - Java Inheritance I
+
+2. Take a screenshot of your progress and upload it to TiTuS.
+
+
 
 ## Notes and Links
+
+- [Java Docs on Inheritance](https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html)
 
 
 
