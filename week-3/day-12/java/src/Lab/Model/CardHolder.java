@@ -2,6 +2,9 @@ package Lab.Model;
 
 import java.util.ArrayList;
 
+// class that represents a library user
+// the user has a list variable that represents his loaned out books
+
 public class CardHolder {
 
     private long holderId;
@@ -45,5 +48,12 @@ public class CardHolder {
         checkedOutItems.remove(item);
     }
 
-
+    @Override
+    public String toString() {
+        return "CardHolder{" +
+                "holderId=" + holderId +
+                ", name='" + name + '\'' +
+                ", checkedOutItems=" + checkedOutItems +
+                '}';
+    }
 }

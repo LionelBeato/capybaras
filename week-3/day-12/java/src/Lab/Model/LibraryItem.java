@@ -1,12 +1,24 @@
 package Lab.Model;
 
+
+// this is the super class for all library items
+// it implements the interface "Loanable" which will return a true or false value
+
 public class LibraryItem implements Loanable{
 
    private long libraryId;
    private String title;
    private String description;
    private boolean loanedOut;
+   private CardHolder loanee;
 
+    public CardHolder getLoanee() {
+        return loanee;
+    }
+
+    public void setLoanee(CardHolder loanee) {
+        this.loanee = loanee;
+    }
 
     public LibraryItem(long libraryId, String title, String description, boolean loanedOut) {
         this.libraryId = libraryId;
@@ -42,4 +54,6 @@ public class LibraryItem implements Loanable{
     public boolean isLoanable() {
         return !loanedOut;
     }
+
+
 }
