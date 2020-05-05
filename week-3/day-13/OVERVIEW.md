@@ -35,8 +35,6 @@
 2. Take a screenshot of your progress and upload it to TiTuS.
 
 
-
-
 ## Notes and Links
 
 
