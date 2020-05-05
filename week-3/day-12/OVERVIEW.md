@@ -29,6 +29,14 @@
 2. Your system does not need to be a fully active, it just needs the fundamental components and project structure. 
 
 
+### Install Java 11
+
+1. For gradle to work properly, we would need a compatible version of the JDK. [Visit this link and download and install the Java 11](https://adoptopenjdk.net/).
+2. Once you've installed Java 11, create a new Intellij Project. Select 'gradle' and for the sdk choose `version 11`.
+3. Gradle will take a moment to set up your project, once it's done check to see if you have the following path structure: `src > main > java`.
+4. Under the folder `java` create a new class with a main method and a print function to test if your project works. 
+5. If it does, congratulation! You just set up gradle. Now we can utilize more interesting Java tools for our future projects! 
+
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
@@ -46,6 +54,8 @@
 
 - [Factory Pattern in Java](https://www.journaldev.com/1392/factory-design-pattern-in-java).
 - [Singleton Pattern in Java](https://dzone.com/articles/singleton-in-java).
+
+- The version of Gradle that comes preinstalled with Intellij is a little outdated and does not support Java 14 without some tinkering. One solution would be to install gradle globally and utilize that, but for our class it's simpler if we just downgrade our java version. 
 
 
 

@@ -51,7 +51,7 @@ public class Run {
         myBook.setLoanee(Mike);
 
 //        printing out the loanee information
-        
+
         System.out.println(myBook.getLoanee());
     }
 }
