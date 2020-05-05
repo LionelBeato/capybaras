@@ -26,6 +26,15 @@
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
+### HackerRank Challenge
+
+
+1. Go to https://www.hackerrank.com/domains/java and complete the following challenges: 
+   - Java Method Overriding
+   - Java Generics
+2. Take a screenshot of your progress and upload it to TiTuS.
+
+
 
 
 ## Notes and Links
