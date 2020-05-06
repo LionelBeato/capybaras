@@ -66,7 +66,7 @@ javafx {
 
 ```
 
-3. There should then be a refresh button pop towards the upper right side of the screen. Click on it and wait for your project to update.
+3. There should then be a refresh button popup towards the upper right side of the screen. Click on it and wait for your project to update.
 
 4. Now lets create our application class. Under `src/java` create a new class named `PongApp`. 
 
