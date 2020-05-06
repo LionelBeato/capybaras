@@ -32,7 +32,7 @@
 
 ### Java Pong! 
 
-1. Alright, guys. It's time to test out building pongf. We're going to be using a library called *fxgl* that is specifically created for games. To start, create a gradle project in Intellij. 
+1. Alright, guys. It's time to test out building pong. We're going to be using a library called *fxgl* that is specifically created for games. To start, create a gradle project in Intellij. Make sure you are using Java 12 or under. Java 11 should work just fine!
 
 2. Go to your `build.gradle` and replace its content with the following: 
 
@@ -73,7 +73,6 @@ javafx {
 5. Inside of your class add the following imports: 
 
 ```
-
 import com.almasb.fxgl.app.GameApplication;
 import com.almasb.fxgl.app.GameSettings;
 import com.almasb.fxgl.entity.Entity;
