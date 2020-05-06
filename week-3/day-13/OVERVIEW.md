@@ -22,6 +22,12 @@
 ## Lab
 
 
+### OOP Pop Quiz
+
+1. You'll have at least the first 30 minutes to finish the quiz.
+2. We'll review the questions together after the fact. 
+
+
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
