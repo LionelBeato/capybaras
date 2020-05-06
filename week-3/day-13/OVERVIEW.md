@@ -2,6 +2,9 @@
 
 ## Agenda 
 
+- Pop quiz, hotshot!
+- Let's create our very own Pong game.
+
 
 ## Outline
 
