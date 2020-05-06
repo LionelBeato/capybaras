@@ -286,6 +286,9 @@ private void resetBall() {
 
 - [The code tutorial for our Pong game comes from here](https://github.com/AlmasB/FXGL/wiki/Simple-Game---Pong-(FXGL-11)). There were many solutions, but this one seemed the simplest and used the dedicated game library. 
 
+
+- [Open JavaFX Introduction Documentation](https://openjfx.io/openjfx-docs/#introduction). 
+
 ## Quote of the Day 
 
 ```
