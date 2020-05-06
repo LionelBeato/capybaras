@@ -289,6 +289,8 @@ private void resetBall() {
 
 - [Open JavaFX Introduction Documentation](https://openjfx.io/openjfx-docs/#introduction). 
 
+- Did You Know... [that a lot of early flip-phone games ran on Java](https://en.wikipedia.org/wiki/Java_Platform,_Micro_Edition)? As you may be able to imagine, the performance wasn't stellar but it was something. 
+
 ## Quote of the Day 
 
 ```

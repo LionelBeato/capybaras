@@ -45,16 +45,26 @@ public class PongApp extends GameApplication {
         getInput().addAction(new UserAction("Up 2") {
             @Override
             protected void onAction(){
-                paddle1.translateY(-PADDLE_SPEED);
+                paddle2.translateY(-PADDLE_SPEED);
             }
-        }, KeyCode.DIGIT8);
+        }, KeyCode.NUMPAD8);
 
         getInput().addAction(new UserAction("Down 2") {
             @Override
             protected void onAction(){
-                paddle1.translateY(PADDLE_SPEED);
+                paddle2.translateY(PADDLE_SPEED);
             }
-        }, KeyCode.DIGIT5);
+        }, KeyCode.NUMPAD5);
+
+
+//        reset the ball manually
+
+        getInput().addAction(new UserAction("Reset Ball") {
+            @Override
+            protected void onAction() {
+                resetBall();
+            }
+        }, KeyCode.R);
     }
 
 
@@ -64,6 +74,7 @@ public class PongApp extends GameApplication {
     protected void initGameVars(Map<String, Object> vars){
         vars.put("score1", 0);
         vars.put("score2", 0);
+        vars.put("ready?", "ready?");
     }
 
 //    giving our entities values and calling initGame()
@@ -105,11 +116,20 @@ public class PongApp extends GameApplication {
         textscore1.textProperty().bind(getGameState().intProperty("score1").asString());
         textscore2.textProperty().bind(getGameState().intProperty("score2").asString());
 
+
+
+
+
         getGameScene().addUINodes(textscore1, textscore2);
+
+
+
     }
 
     @Override
     protected void onUpdate(double tpf){
+
+
         Point2D velocity = ball.getObject("velocity");
         ball.translate(velocity);
 
@@ -147,8 +167,23 @@ public class PongApp extends GameApplication {
     }
 
     private void resetBall(){
-        ball.setPosition(getAppWidth() / 2 - BALL_SIZE / 2, getAppHeight() / 2 - BALL_SIZE / 2);
-        ball.setProperty("velocity", new Point2D(BALL_SPEED, BALL_SPEED));
+
+        Text ready = getUIFactory().newText("", Color.BLACK, 22);
+
+        ready.textProperty().bind(getGameState().stringProperty("ready?"));
+
+        ready.setTranslateX(400);
+        ready.setTranslateY(250);
+
+        getGameScene().addUINodes(ready);
+
+        onKey(KeyCode.SPACE, () -> {
+            getGameScene().removeUINode(ready);
+            ball.setPosition(getAppWidth() / 2 - BALL_SIZE / 2, getAppHeight() / 2 - BALL_SIZE / 2);
+            ball.setProperty("velocity", new Point2D(BALL_SPEED, BALL_SPEED));
+        });
+
+
     }
 
 
