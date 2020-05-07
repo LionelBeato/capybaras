@@ -1,10 +1,9 @@
 # May 6, 2020 - Day 13
 
-## Agenda 
+## Agenda
 
 - Pop quiz, hotshot!
 - Let's create our very own Pong game.
-
 
 ## Outline
 
@@ -21,22 +20,20 @@
 | 4:50p  | Retrospective                    |
 | 5:00p  | Class is dismissed!              |
 
-
 ## Lab
-
 
 ### OOP Pop Quiz
 
 1. You'll have at least the first 30 minutes to finish the quiz.
 2. We'll review the questions together after the fact.
 
-### Java Pong! 
+### Java Pong
 
 1. Alright, guys. It's time to test out building pong. We're going to be using a library called *fxgl* that is specifically created for games. To start, create a gradle project in Intellij. Make sure you are using Java 12 or under. Java 11 should work just fine!
 
 2. Go to your `build.gradle` and replace its content with the following: 
 
-```
+```groovy
 plugins {
     id 'application'
     id 'org.openjfx.javafxplugin' version '0.0.8'
@@ -68,9 +65,9 @@ javafx {
 
 3. There should then be a refresh button popup towards the upper right side of the screen. Click on it and wait for your project to update.
 
-4. Now lets create our application class. Under `src/java` create a new class named `PongApp`. 
+4. Now lets create our application class. Under `src/java` create a new class named `PongApp`.
 
-5. Inside of your class add the following imports: 
+5. Inside of your class add the following imports:
 
 ```
 import com.almasb.fxgl.app.GameApplication;
@@ -89,9 +86,9 @@ import static com.almasb.fxgl.dsl.FXGL.*;
 
 ```
 
-6. Have your `PongApp` class extend the class `GameApplication`. 
+6. Have your `PongApp` class extend the class `GameApplication`.
 
-7. Now add the following bits of code to your class: 
+7. Now add the following bits of code to your class:
 
 ```java
  @Override
@@ -103,7 +100,7 @@ import static com.almasb.fxgl.dsl.FXGL.*;
         launch(args);
     }
 ```
->`initSettings` will load our settings and our `main` method acts as our entry point 
+>`initSettings` will load our settings and our `main` method acts as our entry point
 
 8. Now lets define some constants and variables, add the following code to your class:
 
@@ -216,7 +213,6 @@ protected void initUI() {
 
 13. Almost done! We then provide code that tells our game what to do at every *tick*. A *tick* can be thought of as one iteration of a loop:
 
-
 ```Java
 
 @Override
@@ -258,6 +254,7 @@ protected void onUpdate(double tpf) {
 }
 
 ```
+
 14. Finally, we add a reset method so that the ball is centered after every round:
 
 ```Java
@@ -269,9 +266,8 @@ private void resetBall() {
 
 15. Now run your code and play some Pong! Does it work as expected? What do you think could be improved? 
 
-
-
 ## Hand in Assignments
+
 >these are expected to be handed in through TiTuS.
 
 ### HackerRank Challenge
@@ -281,19 +277,17 @@ private void resetBall() {
    - Java Generics
 2. Take a screenshot of your progress and upload it to TiTuS.
 
-
 ## Notes and Links
 
-- [The code tutorial for our Pong game comes from here](https://github.com/AlmasB/FXGL/wiki/Simple-Game---Pong-(FXGL-11)). There were many solutions, but this one seemed the simplest and used the dedicated game library. 
+- [The code tutorial for our Pong game comes from here](https://github.com/AlmasB/FXGL/wiki/Simple-Game---Pong-(FXGL-11)). There were many solutions, but this one seemed the simplest and used the dedicated game library.
 
+- [Open JavaFX Introduction Documentation](https://openjfx.io/openjfx-docs/#introduction).
 
-- [Open JavaFX Introduction Documentation](https://openjfx.io/openjfx-docs/#introduction). 
+- Did You Know... [that a lot of early flip-phone games ran on Java](https://en.wikipedia.org/wiki/Java_Platform,_Micro_Edition)? As you may be able to imagine, the performance wasn't stellar but it was something.
 
-- Did You Know... [that a lot of early flip-phone games ran on Java](https://en.wikipedia.org/wiki/Java_Platform,_Micro_Edition)? As you may be able to imagine, the performance wasn't stellar but it was something. 
+## Quote of the Day
 
-## Quote of the Day 
-
-```
+```shell
  _______________________________________
 / A lack of leadership is no substitute \
 \ for inaction.                         /
