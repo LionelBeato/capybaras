@@ -1,8 +1,17 @@
+package Lesson;
+
+import Lesson.DontFeelLikeItException;
+
 import java.util.InputMismatchException;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class Runner {
+
+//    Exceptions!
+//    There are two major groups of Exceptions
+//     - Checked Exception, meaning that the exception needs to be caught or explicitly declared
+//     - Unchecked Exception, meaning that the exception does not need to be caught (typically refers to runtime exceptions)
 
     private static String doThing(){
 
@@ -15,6 +24,9 @@ public class Runner {
             throw dontFeelLikeItException;
 
         } catch (DontFeelLikeItException e) {
+//            Exception can have messages
+//            One important thing to note is that exception messages belong to the stacktrace
+//            if you don't print it out there will be no message in your console
             e.printStackTrace();
         }
 
@@ -48,6 +60,8 @@ public class Runner {
     }
 
     public static void main(String[] args) {
+
+
         int x = 100;
         int y = 0;
         System.out.println(divide(x, y));
