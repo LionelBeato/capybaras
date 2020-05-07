@@ -26,7 +26,7 @@
 
 1. Create a try and catch block that will explicitly throw a built-in exception (something like `NullPointerException`).
 2. Create a try and catch block and use the keyword `throw` in order to throw an exception.
-3. Create a custom exception class and throw that exception in another try and catch block.
+3. Create a custom `Exception` class and throw that exception in another try and catch block.
 
 ## Hand in Assignments
 
