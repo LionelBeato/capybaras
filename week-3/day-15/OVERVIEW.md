@@ -2,6 +2,10 @@
 
 ## Agenda
 
+- General review of OOP and Java
+- Touch on topics for next week
+- Start our flappy bird project
+
 ## Outline
 
 | Time   | Objective                        |
