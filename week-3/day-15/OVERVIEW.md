@@ -313,7 +313,7 @@
 
     ```
 
-11. One last step! We forgot to add our resources! Under `src > main` [add the contents of this zip](resources.zip). There should now be a folder called `resources`.
+11. One last step! We forgot to add our resources! Under `src > main` [add the contents of this zip](resources.zip). You can simply replace your current resources folder with our new one.
 
 12. Now see if your code runs! What do you think? Does it play well? What would you change about it if anything? Tinker with it (maybe perhaps the bird png) and customize it to your liking!
 
