@@ -331,6 +331,8 @@
 
 - Threads can be a daunting topic. Just think of them as a discrete set of instructions that are executed. Here's [the Oracle tutorial on threads](https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html);
 
+- Credit to @AlmasB for the flappy bird implementation! [You can find his entire collection of fxgl games here](https://github.com/AlmasB/FXGLGames).
+
 ## Quote of the Day
 
 ```bash
