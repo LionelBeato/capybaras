@@ -275,7 +275,6 @@
 
         playSpawnAnimation(player);
     }
-        }
     ```
 
 9. Let's create a simple animation for whenever our bird starts a game:
