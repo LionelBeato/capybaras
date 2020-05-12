@@ -15,7 +15,6 @@ public class Animal {
     private String animalName;
     private String animalColor;
 
-
     public Animal(){}
 
     public Animal(String animalName, String animalColor) {

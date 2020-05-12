@@ -36,11 +36,17 @@
 
 ### Baeldung H2 Database Guide
 
+- [Spring Starter Kit](https://spring.start.io)
+
 - [Postman is a tool for testing Web APIs](https://www.postman.com/). It comes highly recommended!
 
 - Baeldung is a greate resource for spring. They are the creators of Spring and have a lot of well written articles about the framework. [This one targets setting up H2](https://www.baeldung.com/spring-boot-h2-database).
 
 - [Here is a full article on bootstrapping a Spring Boot App](https://www.baeldung.com/spring-boot-start).
+
+- [Simple HTML server for testing out tools](http://httpbin.org/)
+
+- [If you're not going to use Postman, HTTPie is a great command line API testing tool for the CLI](https://httpie.org/)
 
 - Q: *Why do you use gradle and not maven?* A: You may have noticed the previous example used maven instead of gradle. While using maven is *fine*, I don't recommend it's use for many reasons. For one, XML can be a pain to read; gradle is human-readable. Secondly, poorly formatted XML is easy to create and difficult to debug. Lastly, building with gradle is simple and intuitive.
 
