@@ -36,6 +36,8 @@
 
 ### Baeldung H2 Database Guide
 
+- [Postman is a tool for testing Web APIs](https://www.postman.com/). It comes highly recommended!
+
 - Baeldung is a greate resource for spring. They are the creators of Spring and have a lot of well written articles about the framework. [This one targets setting up H2](https://www.baeldung.com/spring-boot-h2-database).
 
 - [Here is a full article on bootstrapping a Spring Boot App](https://www.baeldung.com/spring-boot-start).
