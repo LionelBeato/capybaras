@@ -1,10 +1,13 @@
 package com.example.demo.Controller;
 
-import com.example.demo.Fruit;
+import com.example.demo.Model.Fruit;
+import com.example.demo.Repository.FruitRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
+import java.util.List;
 
 // here we have a "controller" class
 // controllers will dictate what occurs at any given endpoint
@@ -18,12 +21,15 @@ import java.util.ArrayList;
 @RestController
 public class MainController {
 
+    @Autowired
+    FruitRepository fruitRepository;
+
 //    creating two different Fruits that we'll later return
-    Fruit apple = new Fruit(0, "Apple", "red");
-    Fruit papaya = new Fruit(1, "Papaya", "orange");
+    Fruit apple = new Fruit( "Apple", "red");
+    Fruit papaya = new Fruit( "Papaya", "orange");
 
 //    creating a list that we can return as well
-    ArrayList<Fruit> fruitArrayList = new ArrayList<>();
+//    ArrayList<Fruit> fruitArrayList = new ArrayList<>();
 
 //    GetMapping is used to define our URL endpoint
 //    this endpoint can be any legal string value
@@ -53,10 +59,10 @@ public class MainController {
 //    this list will also render as a JSON object
 //    essentially, valid Java objects will resolve to a JSON objects with few exceptions
     @GetMapping("/allfruits")
-    public ArrayList<Fruit> getFruitArrayList(){
-        fruitArrayList.add(apple);
-        fruitArrayList.add(papaya);
-        return fruitArrayList;
+    public List<Fruit> getFruitArrayList(){
+        fruitRepository.save(apple);
+        fruitRepository.save(papaya);
+        return fruitRepository.findAll();
     }
 
 
