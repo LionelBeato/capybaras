@@ -15,17 +15,37 @@
 
 <script>
 
-    let element = document.createElement('b')
-    element.innerHTML = "hello world"
 
    let list = document.getElementById("animals")
-   list.appendChild(element);
+
+
+   let animalBuilder = (data) => {
+       data.forEach(animal => {
+          let listItem = document.createElement('li')
+          list.appendChild(listItem)
+          listItem.append(`Name: ${animal.animalName}, Color: ${animal.animalColor}`)
+        })
+   }
 
 
 
-  fetch('http://localhost:8080/api/')
+//   fetch('http://localhost:8080/api/')
+//   .then(response => response.json())
+//   .then(data => document.body.textContent = JSON.stringify(data))
+
+//   fetch('http://localhost:8080/api/')
+//   .then(response => response.json())
+//   .then(data => data.forEach(animal => list.appendChild( 
+//      `<div>
+//         ${animal.animalName}
+//         </div>`
+//   )
+//   ))
+
+fetch('http://localhost:8080/api/')
   .then(response => response.json())
-  .then(data => document.body.textContent = JSON.stringify(data))
+  .then(data => animalBuilder(data))
+
 
 </script>
 </body>
