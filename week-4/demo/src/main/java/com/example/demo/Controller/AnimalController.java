@@ -4,19 +4,19 @@ import com.example.demo.Model.Animal;
 import com.example.demo.Repository.AnimalRepository;
 import com.example.demo.Service.AnimalService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Optional;
 
-@RequestMapping("/api/animals/")
+@RequestMapping("/api/")
 @RestController
 public class AnimalController {
 
     @Autowired
     AnimalService animalService;
 
-    @Autowired
-    AnimalRepository animalRepository;
 
 //
 ////    For your Post method, you would need RequestBody in your parameters
@@ -50,6 +50,13 @@ public class AnimalController {
     public Optional<Animal> getAnimal(@PathVariable Long id){
         return animalService.getAnimal(id);
     }
+
+
+    @GetMapping("/")
+    public List<Animal> getAllAnimals(){
+        return animalService.getAllAnimals();
+    }
+
 
 //    update
 

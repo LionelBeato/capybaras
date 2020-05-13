@@ -5,6 +5,7 @@ import com.example.demo.Repository.AnimalRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -26,6 +27,10 @@ public class AnimalService {
 
     public Optional<Animal> getAnimal(Long id){
         return animalRepository.findById(id);
+    }
+
+    public List<Animal> getAllAnimals(){
+        return animalRepository.findAll();
     }
 
 //    Update
