@@ -30,9 +30,14 @@ public class AnimalService {
 
 //    Update
 
-//    public Optional<Animal> updateAnimal(Long id){
-//        return animalRepository.findById(id);
-//    }
+    public Optional<Animal> updateAnimal(Animal newAnimal, Long id){
+       animalRepository.findById(id).map(animal -> {
+            animal.setAnimalName(newAnimal.getAnimalName());
+            animal.setAnimalColor(newAnimal.getAnimalColor());
+            return animalRepository.save(animal);
+        });
+        return animalRepository.findById(id);
+    }
 
 //    Delete
 

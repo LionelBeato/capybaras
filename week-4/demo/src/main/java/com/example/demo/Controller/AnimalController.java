@@ -55,12 +55,7 @@ public class AnimalController {
 
     @PutMapping("/{id}")
     public Optional<Animal> updateAnimal(@RequestBody Animal newAnimal, @PathVariable Long id){
-        Optional<Animal> updatedAnimal = animalRepository.findById(id).map(animal -> {
-            animal.setAnimalName(newAnimal.getAnimalName());
-            animal.setAnimalColor(newAnimal.getAnimalColor());
-            return animalRepository.save(animal);
-        });
-        return animalService.getAnimal(id);
+        return animalService.updateAnimal(newAnimal, id);
     }
 
 //    delete
