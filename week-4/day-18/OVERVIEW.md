@@ -1,6 +1,10 @@
 # May 13, 2020 - Day 18
 
-## Agenda 
+## Agenda
+
+- Explore what an API actually is.
+- Explain the http methods and how they align with our application.
+- Try and render content dynamically to a frontend.
 
 
 ## Outline
@@ -18,21 +22,19 @@
 | 4:50p  | Retrospective                    |
 | 5:00p  | Class is dismissed!              |
 
-
 ## Lab
 
+### Spring Lab
 
+1. Continue working on your API.
+2. Try to have full CRUD by the end of today.
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
-
-
 ## Notes and Links
 
-
-
-## Quote of the Day 
+## Quote of the Day
 
 ```
  ________________________________________
