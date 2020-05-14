@@ -14,12 +14,22 @@ public class Animal {
     private Long animalId;
     private String animalName;
     private String animalColor;
+    private String animalEmoji;
+
+    public String getAnimalEmoji() {
+        return animalEmoji;
+    }
+
+    public void setAnimalEmoji(String animalEmoji) {
+        this.animalEmoji = animalEmoji;
+    }
 
     public Animal(){}
 
-    public Animal(String animalName, String animalColor) {
+    public Animal(String animalName, String animalColor, String animalEmoji) {
         this.animalName = animalName;
         this.animalColor = animalColor;
+        this.animalEmoji = animalEmoji;
     }
 
     public Long getAnimalId() {

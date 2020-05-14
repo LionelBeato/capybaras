@@ -45,9 +45,11 @@ public class AnimalController {
 
 //    @PostMapping
     @RequestMapping(value = "/", method = RequestMethod.POST,consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE)
-    public ModelAndView postFormAnimal( Animal animal){
+    public RedirectView postFormAnimal( Animal animal){
         animalService.createAnimal(animal);
-        return new ModelAndView("index");
+        RedirectView redirectView = new RedirectView();
+        redirectView.setUrl("/");
+        return redirectView;
     }
 
 

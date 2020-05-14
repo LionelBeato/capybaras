@@ -20,16 +20,22 @@
   <label>Animal Name:
       <input name="animalName" autocomplete="name">
   </label>
+  <label>Animal Name:
+    <input name="animalEmoji" autocomplete="emoji">
+</label>
   <label>Animal color:
     <input name="animalColor" autocomplete="color">
 </label>
 <button>Save</button>
 </form>
+<br>
+<br>
 
 <table>
   <thead>
       <tr>
           <th>Animal id</th>
+          <th>Animal emoji</th>
           <th>Animal name</th>
           <th>Animal color</th>
           <th>Update Animal</th>
@@ -70,14 +76,16 @@
           let rowItem = document.createElement('tr')
           tbody.appendChild(rowItem)
           rowItem.innerHTML = `
-          <td>${animal.animalId}</td> 
+          <td>${animal.animalId}</td>
+          <td>${animal.animalEmoji}</td>  
           <td> ${animal.animalName}</td> 
-          <td>${animal.animalColor}</td>
-          <td> Update </td>
-          <td> <a onclick="animalDeleter(${animal.animalId})">Delete</a> </td>
+          <td style="background-color:${animal.animalColor}" alt=${animal.animalColor}></td>
+          <td class="hover"> Update </td>
+          <td class="hover"> <a onclick="animalDeleter(${animal.animalId})">Delete</a> </td>
           `
         })
    }
+
 
 
 

@@ -15,9 +15,9 @@ public class Runner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        animalRepository.save(new Animal("kangaroo", "tan"));
-        animalRepository.save(new Animal("cobra", "red"));
-        animalRepository.save(new Animal("whale", "blue"));
+        animalRepository.save(new Animal("kangaroo", "tan", "\uD83E\uDD98"));
+        animalRepository.save(new Animal("cobra", "green", "\uD83D\uDC0D"));
+        animalRepository.save(new Animal("whale", "blue", "\uD83D\uDC0B"));
 
 
     }
