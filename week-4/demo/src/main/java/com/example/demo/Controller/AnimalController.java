@@ -4,12 +4,17 @@ import com.example.demo.Model.Animal;
 import com.example.demo.Repository.AnimalRepository;
 import com.example.demo.Service.AnimalService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.view.RedirectView;
 
 import java.util.List;
 import java.util.Optional;
 
+// A controller chiefly handles routing
+// this can determine the location of resources at a specific URL/URI
 @RequestMapping("/api/")
 @RestController
 public class AnimalController {
@@ -38,10 +43,19 @@ public class AnimalController {
 
 //    create
 
-    @PostMapping
-    public void postAnimal(@RequestBody Animal animal){
+//    @PostMapping
+    @RequestMapping(value = "/", method = RequestMethod.POST,consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE)
+    public ModelAndView postFormAnimal( Animal animal){
+        animalService.createAnimal(animal);
+        return new ModelAndView("index");
+    }
+
+
+    @PostMapping("/")
+    public void postAnimal( @RequestBody Animal animal){
         animalService.createAnimal(animal);
     }
+
 
 
 //    read
@@ -55,6 +69,13 @@ public class AnimalController {
     @GetMapping("/")
     public List<Animal> getAllAnimals(){
         return animalService.getAllAnimals();
+    }
+
+    @RequestMapping("/a")
+    public RedirectView localRedirect() {
+        RedirectView redirectView = new RedirectView();
+        redirectView.setUrl("http://www.yahoo.com");
+        return redirectView;
     }
 
 

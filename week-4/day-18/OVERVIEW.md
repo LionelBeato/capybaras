@@ -6,7 +6,6 @@
 - Explain the http methods and how they align with our application.
 - Try and render content dynamically to a frontend.
 
-
 ## Outline
 
 | Time   | Objective                        |
@@ -31,6 +30,10 @@
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
+
+### Spring Boot App
+
+- Zip up your Spring Boot app and upload it to TiTuS.
 
 ## Notes and Links
 

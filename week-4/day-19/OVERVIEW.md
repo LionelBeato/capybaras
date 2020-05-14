@@ -1,7 +1,9 @@
 # May 14, 2020 - Day 19
 
-## Agenda 
+## Agenda
 
+- Refine our Spring Boot Application
+- Explore Bootstrap and JavaScript with Irish
 
 ## Outline
 
@@ -18,21 +20,24 @@
 | 4:50p  | Retrospective                    |
 | 5:00p  | Class is dismissed!              |
 
-
 ## Lab
 
+### Spring Lab
 
+1. Let's continue our Spring app refinements.
+2. Have a table that will dynamically render your data.
+3. Have a form that will commit a POST method.
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
-
+- None for today!
 
 ## Notes and Links
 
+- The last hackerrank assignment is under *Threads and Streams* on TiTuS and [Day-16](/week-4/day-16/OVERVIEW.md) here. Be sure you've completed it!
 
-
-## Quote of the Day 
+## Quote of the Day
 
 ```
  ______________________________________

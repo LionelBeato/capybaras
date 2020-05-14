@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+// A service is a class that will properly hold your business logic
+// business logic can be thought of as any real actions or behavior of your backend application
 @Service
 public class AnimalService {
 
