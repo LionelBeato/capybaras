@@ -31,18 +31,23 @@
 7. Once you're ready to push enter the command `git push heroku master` in your terminal and wait for heroku to resolve.
 8. If successful, you should be given a URL that points to your now hosted app!
 
-
-
 ## Hand in Assignments
+
 >these are expected to be handed in through TiTuS.
 
+### Link to Heroku
 
+1. Under deployment on TiTuS, hand in your assignment as a heroku link. If you could not get your link to work, you can instead hand it in as a github link.
 
 ## Notes and Links
 
+- There are many hosting solutions for a modern app. One I'm partial to is [firebase](firebase.com).
 
+- [repl.it](http://repl.it) is greate for quickly trying out other programming languages.
 
-## Quote of the Day 
+- [Go here to try out Windows Subsystem for Linux](https://ubuntu.com/wsl). This link is for the linux distro *Ubuntu* but there are many distros on the Microsoft Store.  
+
+## Quote of the Day
 
 ```
  _________________________________________
